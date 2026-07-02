@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Modulr - Assistant Vocal Ajout de Notes et Taches
-// @version      9.8
+// @version      9.8.1
 // @description  Lu'itilisateur peut ajouter des note et taches modulr en dictant oralement 
 // @match        https://courtage.modulr.fr/*
 // @grant        GM_xmlhttpRequest
@@ -15,10 +15,9 @@
     'use strict';
 
     const GEMINI_MODELS = [
-        'gemini-2.5-flash',
-        'gemini-2.0-flash',
-        'gemini-2.5-flash-lite',
-        'gemini-flash-latest'
+        'gemini-3.5-flash',
+        'gemini-3.5-flash',
+        'gemini-3.1-flash-lite',
     ];
 
     function getClientContext() {
