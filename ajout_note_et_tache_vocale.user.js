@@ -1,14 +1,14 @@
 // ==UserScript==
 // @name         Modulr - Assistant Vocal Ajout de Notes et Taches
-// @version      9.8.3
+// @version      9.8.4
 // @description  Lu'itilisateur peut ajouter des note et taches modulr en dictant oralement 
 // @match        https://courtage.modulr.fr/*
 // @grant        GM_xmlhttpRequest
 // @grant        GM_setValue
 // @grant        GM_getValue
 // @connect      generativelanguage.googleapis.com
-// @updateURL    https://raw.githubusercontent.com/BiggerThanTheMall/ajout_notes_et_taches_par_prise__2_note_vocale/raw/main/ajout_note_et_tache_vocale.user.js
-// @downloadURL  https://raw.githubusercontent.com/BiggerThanTheMall/ajout_notes_et_taches_par_prise__2_note_vocale/raw/main/ajout_note_et_tache_vocale.user.js
+// @updateURL    https://raw.githubusercontent.com/BiggerThanTheMall/ajout_notes_et_taches_par_prise__2_note_vocale/main/ajout_note_et_tache_vocale.user.js
+// @downloadURL  https://raw.githubusercontent.com/BiggerThanTheMall/ajout_notes_et_taches_par_prise__2_note_vocale/main/ajout_note_et_tache_vocale.user.js
 // ==/UserScript==
 
 (function() {
